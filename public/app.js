@@ -1,5 +1,5 @@
 // ===== CONFIG =====
-const API = ''; // Empty = same server. Change to 'https://your-backend.com' when deployed separately
+const API = 'https://constructionhub-production.up.railway.app';
 
 // ===== HELPERS =====
 function getToken() { return localStorage.getItem('ch_token'); }
